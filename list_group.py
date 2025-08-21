@@ -1,7 +1,7 @@
 def main():
     path = "/etc/group"
     try:
-        with open(list_group.py, "r") as f:
+        with open(list_group.py, "r") as f:git
             print("Group members:\n")
             for line in f:
                 parts =line.split(":")
